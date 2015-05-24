@@ -38,6 +38,7 @@
           React.DOM.tbody null,
             for record in @state.records
               React.createElement Record, key: record.id, record: record, handleDeleteRecord: @deleteRecord
+
     credits: ->
       credits = @state.records.filter (val) -> val.amount >= 0
       credits.reduce ((prev, curr) ->
