@@ -1,4 +1,4 @@
- # app/assets/javascripts/components/amount_box.js.coffee
+
 
   @AmountBox = React.createClass
     render: ->

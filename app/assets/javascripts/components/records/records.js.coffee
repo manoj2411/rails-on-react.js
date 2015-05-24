@@ -1,4 +1,3 @@
-# app/assets/javascripts/components/records.js.coffee
 
 @Records = React.createClass
     getInitialState: ->

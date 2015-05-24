@@ -1,4 +1,3 @@
-  # app/assets/javascripts/components/record_form.js.coffee
 
   @RecordForm = React.createClass
     getInitialState: ->
